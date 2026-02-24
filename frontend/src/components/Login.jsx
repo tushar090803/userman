@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Create = ({ handleLogin }) => {
+const Login = ({ handleLogin }) => {
   let [email, setEmail] = useState('')
   let [password, setPassword] = useState('')
 
@@ -90,4 +90,4 @@ const Create = ({ handleLogin }) => {
   )
 }
 
-export default Create
+export default Login
